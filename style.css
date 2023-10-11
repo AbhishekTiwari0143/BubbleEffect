@@ -32,6 +32,9 @@
   outline: none;
   cursor: pointer;
 }
+.btn:hover {
+  transform: translateX(2px);
+}
 .content {
   color: #fbfcfd;
   position: absolute;
@@ -64,6 +67,10 @@
   width: 25px;
   margin: 5px auto;
   cursor: pointer;
+}
+.social-links img:hover,
+.useful-links img:hover {
+  transform: translateX(2px);
 }
 
 .social-links {
